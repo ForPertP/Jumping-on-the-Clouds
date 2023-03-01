@@ -1,3 +1,18 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+string ltrim(const string &);
+string rtrim(const string &);
+vector<string> split(const string &);
+
+/*
+ * Complete the 'jumpingOnClouds' function below.
+ *
+ * The function is expected to return an INTEGER.
+ * The function accepts INTEGER_ARRAY c as parameter.
+ */
+
 int jumpingOnClouds(vector<int> c)
 {
     int result = 0;
